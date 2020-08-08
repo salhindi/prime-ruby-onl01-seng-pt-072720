@@ -1,6 +1,6 @@
 def prime?(num)
   return false if num < 2
-  (2... num/2).none?
+  (2... num/2).none?{|i|
       end
     end
   end
