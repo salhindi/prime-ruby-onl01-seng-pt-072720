@@ -5,6 +5,7 @@ def prime?(num)
       none_prime = false
       end
     end
+  end
 
   # if num > 1
     #range = (i.. num-1).to_a
