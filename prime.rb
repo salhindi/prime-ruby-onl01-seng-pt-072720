@@ -1,8 +1,5 @@
 def prime?(num)
-  i = 2
-  num.each do |i|
-    if i.prime?
-      none_prime = false
+  return false if num < 2
       end
     end
   end
