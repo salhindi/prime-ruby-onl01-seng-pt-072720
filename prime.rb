@@ -1,17 +1,9 @@
- def is_prime n
-  for d in 2..(n - 1)
-   if (n % d) == 0
-    return false
-   end
-  end
-
-  true
- end
-
- def is_prime2 n
-  foundDivider = false
-   for d in 2..(n - 1)
-    foundDivider = ((n % d) == 0) or foundDivider
-   end
-  not foundDivider
- end
+def prime?(n)
+  return false if n < 2 
+  return true if n == 3 || n == 2 
+    if (2...n-1).any?{|i| n % i == 0}
+      false
+    else
+      true
+    end
+end
