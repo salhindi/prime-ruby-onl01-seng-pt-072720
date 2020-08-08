@@ -1,2 +1,2 @@
-def prime?(2)
+def prime?(int)
   # Add  code here!
